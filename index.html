@@ -1,0 +1,394 @@
+<!DOCTYPE html><html><head><title>Big</title><meta charset='utf-8'><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<link href='big.css' rel='stylesheet' type='text/css' />
+<style>
+  .center {
+    text-align: center;
+  }
+  .quote {
+    font-family: serif;
+    letter-spacing: 2px;
+  }
+  .mike {
+    background-image: url(http://images.digital-democracy.org/assets/headshot_Mike_Migurski-1200.jpg);
+    background-position: center 1px;
+    background-repeat: no-repeat;
+    background-size: 99%;
+  }
+  .thiebaud-morning-freeway {
+    background-image: url(http://garagemag.com/wp-content/uploads/2014/08/Wayne7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 99%;
+    text-shadow: 3px 3px 5px #222;
+  }
+  .thiebaud-freeway-from-air {
+    background-image: url(http://ayay.co.uk/backgrounds/paintings/wayne_thiebaud/freeway-from-the-air.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #bff5ab;
+    text-shadow: 2px 2px 5px #333;
+  }
+  .thiebaud-freeway {
+    background-image: url(http://art.famsf.org/sites/default/files/artwork/thiebaud/6259302211110074.jpg);
+    background-position: center -200px;
+    background-repeat: no-repeat;
+    background-size: 99%;
+    color: #bff5ab;
+    text-shadow: 5px 5px 5px #333;
+  }
+  .geology {
+    background-image: url(http://classconnection.s3.amazonaws.com/372/flashcards/2470372/jpg/conver1355583815850.jpg);
+    background-repeat: no-repeat;
+    background-position: center 25px;
+    background-color: #fff;
+    color: #111;
+  }
+  .parachute {
+    background-image: url(http://static5.businessinsider.com/image/51eea3c069beddce64000007-1200/parachute-pants-add-weight-and-never-look-polished.jpg);
+    background-position: center 1px;
+    background-repeat: no-repeat;
+    background-size: 99%;
+    color: #eee;
+    text-shadow: 3px 3px 5px #222;
+  }
+  .cathedral-bazaar {
+    background-image: url(http://manufacturaindependente.com/neural-archive-imgs/fullsize/The_Cathedral_&_The_Bazaar.jpg);
+    background-position: center 1px;
+    background-repeat: no-repeat;
+    background-size: 99%;
+  }
+  .catmap {
+    background-image: url(./images/catmap.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #eee;
+    text-shadow: 3px 3px 5px #222;
+  }
+  .pirate {
+    background-image: url(./images/pirate.png);
+    background-repeat: no-repeat;
+  }
+  .studio {
+    background-image: url(./images/studio.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .leaflet {
+    background-image: url(./images/leaflet.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .xkcd {
+    background-image: url(./images/xkcd.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center 5px;
+  }
+  .mapboxjs {
+    background-image: url(./images/mapboxjs.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .turf {
+    background-image: url(./images/turf.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .cartodb1 {
+    background-image: url(./images/cartodb1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .winter {
+    background-image: url(./images/winter.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .cartodb2 {
+    background-image: url(./images/cartodb2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .cartodb {
+    background-image: url(./images/cartodb.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .osm {
+    background-image: url(./images/osm.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-shadow: 3px 3px 5px #eee;
+  }
+  .id {
+    background-image: url(./images/id.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #eee;
+    text-shadow: 3px 3px 5px #222;
+  }
+  .patterson {
+    background-image: url(http://www.personal.psu.edu/cab38/GEOG321/09_relief02/Cross-blended_NW_US.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-shadow: 3px 3px 5px #eee;
+  }
+  .qgis-cartography {
+    background-image: url(https://underdark.files.wordpress.com/2015/01/screenshot-2015-01-04-17-37-33.png);
+    background-repeat: no-repeat;
+    background-position: center 5px;
+  }
+  .detroit-blight {
+    background-image: url(https://farm4.staticflickr.com/3917/14526706699_7568d231d6_b.jpg);
+    background-repeat: no-repeat;
+    background-position: center 5px;
+  }
+  .raster2vector {
+    background-image: url(https://farm8.staticflickr.com/7529/15764736756_42d88557cc_b.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .hillshade {
+    background-image: url(https://farm4.staticflickr.com/3884/15164334032_d104851610_b.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .qgis-postgis {
+    background-image: url(https://farm4.staticflickr.com/3914/14606441496_937a989431_b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .puppy {
+    background-image: url(http://i.giphy.com/LPQ943m8yMcpy.gif);
+    text-shadow: 3px 3px 5px #222;
+  }
+  .interchange {
+    background-image: url(http://i.imgur.com/0gZ1lNS.jpg);
+    background-repeat: no-repeat;
+    background-position: center 5px;
+    background-size: 99%;
+    color: #eee;
+    text-shadow: 3px 3px 5px #222;
+  }
+  .cartography {
+    background-image: url(http://i.giphy.com/qelrowmf6jABi.gif);
+    background-size: 100%;
+    text-shadow: 3px 3px 5px #222;
+  }
+  .hackers {
+    background-image: url(http://i.giphy.com/xebOoxouppcGs.gif);
+    color: #eee;
+    text-shadow: 3px 3px 5px #222;
+  }
+  .babyname {
+    background-image: url(http://i.giphy.com/12negYDHaG82n6.gif);
+    text-shadow: 3px 3px 5px #222;
+  }
+  .database {
+    background-image: url(http://i.giphy.com/NbLpoH3dWxKgM.gif);
+    color: #eee;
+    text-shadow: 3px 3px 5px #222;
+  }
+  .community {
+    background-image: url(http://i.giphy.com/142na7ROkljwKA.gif);
+    text-shadow: 3px 3px 5px #eee;
+  }
+  .stripes {
+    background-image: url(http://i.giphy.com/VyUdvmiZ7Y760.gif);
+    text-shadow: 3px 3px 5px #eee;
+  }
+  .corgi-rainbow {
+    background-image: url(http://i.giphy.com/AQvUFtbARPzsQ.gif);
+    color: #eee;
+    text-shadow: 3px 3px 5px #222;
+  }
+  .choropleth {
+    background-image: url(http://i.stack.imgur.com/3hBTV.jpg);
+    background-size: 100%;
+    color: #eee;
+    text-shadow: 3px 3px 5px #222;
+  }
+  .raster-vector {
+    background-image: url(http://upload.wikimedia.org/wikipedia/commons/8/8b/Raster_vector_gis.png);
+    background-size: 100%;
+    color: #eee;
+    text-shadow: 3px 3px 5px #222;
+  }
+  .data {
+    background-image: url(http://i.giphy.com/rIq6ASPIqo2k0.gif);
+    color: #eee;
+    text-shadow: 3px 3px 5px #222;
+  }
+  .sotm2012 {
+    background-image: url(http://www.nps.gov/npmap/slides/nps-and-osm/img/sotm-2012-group-photo.jpg);
+    background-size: 100%;
+    background-position: center 70px;
+    color: #eee;
+    text-shadow: 3px 3px 5px #222;
+  }
+
+</style>
+<script src='big.js'></script>
+</head><body>
+
+<div data-bodyclass='thiebaud-freeway center'><em>On-Ramps to Open Source</em><br>Lyzi Diamond, Mapbox<br><strong>FOSS4G-NA 2015</strong></div>
+<div>Hi! I'm <a href='https://twitter.com/lyzidiamond'>Lyzi</a>. I do <a href='https://mapbox.com/education'>Education</a> at <a href='https://mapbox.com/'>Mapbox</a>. I am <strong>also</strong> a <em>co-founder</em> of <a href='http://maptime.io'>Maptime</a>.</div>
+<div>Let's start with a <strong>postulate</strong>: <em>every</em> open source community experiences the <strong>same</strong> growing pains.</div>
+<div>Folks <em>already inside</em> the community don't know what to <strong>do</strong> about it.</div>
+<div>Folks <em>interested in joining</em> the community don't know what to <strong>do</strong> about it.</div>
+<div><strong>Neither</strong> group can even <em>identify</em> the problem!</div>
+<div>But there is a <em>disconnect</em>. It is <strong>difficult</strong> to join an open source community as a <em>beginner</em>...</div>
+<div>... and it's <strong>difficult</strong> for an open source community to <em>open itself up</em> to beginners.</div>
+<div><em>Why?</em> Open source is meant to be <strong>accessible by nature</strong>. And it is, <em>technically</em>.</div>
+<div>But not always <em>conceptually</em>.</div>
+<div>In 1997, <strong>Eric Raymond</strong> published an essay called <a href='http://www.catb.org/esr/writings/cathedral-bazaar/cathedral-bazaar/'>"The Cathedral and the Bazaar"</a>.</div>
+<div data-bodyclass='cathedral-bazaar'></div>
+<div>This is considered one of the <em>seminal</em> programming texts. It is an essay in <strong>praise</strong> of open source, particularly in the <em>Linux</em> community.</div>
+<div>The essay is <em>full</em> of <strong>quotes</strong> like this:</div>
+<div data-bodyclass='quote'>"A certain <em>base level of design and coding skill</em> is required, of course, but <strong>I expect almost anybody seriously thinking of launching a bazaar effort will already be above that minimum</strong>. The open-source community's <EM>internal market in reputation</em> exerts subtle pressure on people not to launch development efforts they're not competent to follow through on. So far this seems to have worked pretty well."</div>
+<div><em>"So far this seems to have worked pretty well."</em></div>
+<div>:-/</div>
+<div>Raymond is describing the <strong>infancy</strong> of <em>modern-day</em> open source communities. (Keep in mind he was writing in the <strong>late nineties</strong>. <em>Parachute pants</em> were a popular fashion choice.)</div>
+<div data-bodyclass='parachute center'>A different time.</div>
+<div><strong>Open source projects</strong> in <em>our time</em> typically start when people with a <strong>common skillset</strong> have a <strong>common problem</strong> or <strong>frustration</strong> that they want to <em>solve together</em>.</div>
+<div>Doing that in the <strong>open</strong> means <em>more people</em> will contribute and it will <strong>mature faster</strong>.</div>
+<div><em>That</em> is what Raymond was writing about.</div>
+<div>But there <strong>comes a time</strong> when the <em>project</em> has <strong>users</strong> who are <em>not</em> the same as the <strong>developers</strong>.</div>
+<div>In the nineties, <em>this divide didn't exist</em>.</div>
+<div><strong>Technology</strong> was for <strong>technologists</strong>.</div>
+<div>The whole <em>concept</em> of an <strong>open source community</strong> is <em>relatively young</em> itself.</div>
+<div><strong>Open source</strong> PLUS <em>consumer technology</em> is even younger.</div>
+<div>Add into that <strong>everything in between</strong> and you see...</div>
+<div>We <em>simply haven't had time</em> to solve this problem yet.</div>
+<div>I repeat: <strong>YET</strong>.</div>
+<div>As a <em>community</em>, open source <strong>geospatial</strong> is pretty <em>amazing</em>.</div>
+<div>We put a <em>lot</em> of focus on <strong>education</strong> and <em>growing</em> our community.</div>
+<div>But we have yet to <strong>solve this problem</strong>.</div>
+<div>And I have an <em>idea</em> of how we can <strong>start</strong>.</div>
+<div data-bodyclass='interchange center'>Hint hint</div>
+<div><em>Geospatial technology</em> has <strong>many</strong> facets. There are <strong>many</strong> problems to solve that require <em>different</em> skill sets.</div>
+<div>So <em>why</em> are we trying to <strong>onboard</strong> everyone in the <em>same way</em>?</div>
+<div>There are <strong>tons</strong> of places you can start. There are <strong>tons</strong> of doors.</div>
+<div>Or, if you prefer: <em>on-ramps</em>.</div>
+<div>I have <strong>subdivided</strong> our field into <em>five</em> main groups:</div>
+<div data-bodyclass='cartography'>1. Cartography</div>
+<div data-bodyclass='hackers'>2. Web Programming</div>
+<div data-bodyclass='babyname'>3. Spatial Analysis</div>
+<div data-bodyclass='database'>4. Data Management and Acquisition</div>
+<div data-bodyclass='community'><em>5. Community Mapping</em></div>
+<div>The <strong>number of tools</strong> you can use for <em>mapping</em> has been growing <strong>exponentially</strong>.</div>
+<div>This is <em>awesome</em>! It means we have <strong>many</strong> places to start.</div>
+<div data-bodyclass='stripes'>So...</div>
+<div>Let's <em>walk through</em> each of these groups and talk about <strong>on-ramps</strong> that can <em>build on existing skillsets</em>.</div>
+<div>Let's identify some <strong>comfortable introductions</strong> to geospatial open source.</div>
+<div data-bodyclass='corgi-rainbow'>Let's <em>sing</em> and talk about <strong>puppies</strong> and <em>rainbows</em>! Yay!</div>
+<div>This is of course <em>not</em> meant to insinuate that these are the <strong>only</strong> ways to get involved. They are simply <em>helpful paradigms</em> for those <strong>lost</strong> among us who just want to <em>get involved</em>.</div>
+<div>Also, <strong>disclaimer</strong>: I do work at <em>Mapbox</em>, but I'm <strong>not</strong> only going to talk about <em>Mapbox tools</em>. That would be <strong>counter</strong> to the <em>goals</em> of this talk. We want <strong>diversity</strong> of tools for a <strong>diversity</strong> of projects!</div>
+<div data-bodyclass='cartography'>1. Cartography</div>
+<div>a.k.a. <strong>making pretty maps</strong> :)</div>
+<div>In terms of <em>web mapping</em>, cartography applies to <strong>basemaps</strong>, <em>feature layers</em>, and the ways the two <strong>interact</strong>.</div>
+<div data-bodyclass='catmap center'><em>Bad cartography is easy to spot (and way easy to create).</em></div>
+<div data-bodyclass='patterson'>Good cartography is difficult to define and emulate.</div>
+<div>We <strong>want</strong> people with <em>good design skills</em> in our field!</div>
+<div>They make <strong>beautiful</strong> things.</div>
+<div data-bodyclass='pirate'></div>
+<div><em>This map</em> was made with <a href='https://mapbox.com/mapbox-studio'>Mapbox Studio</a>.</div>
+<div data-bodyclass='winter'></div>
+<div>So was <strong>this one</strong>.</div>
+<div data-bodyclass='studio'></div>
+<div>You can use <strong>Mapbox Studio</strong> to make <em>map tiles</em> for <strong>web maps</strong> or to make <em>styles</em> and print <strong>static maps</strong>.</div>
+<div>It is a <em>free</em> and <em>open source</em> desktop application that comes <strong>pre-loaded</strong> with data from <a href='http://osm.org'>OpenStreetMap</a> and <a href='http://naturalearthdata.com'>Natural Earth</a>.</div>
+<div>This is just <strong>one</strong> of the reasons that <em>Mapbox Studio</em> is a <strong>great</strong> onramp to open source geospatial for <strong>designers</strong>: no <em>data wrangling</em> necessary!</div>
+<div>It's <strong>also</strong> a great onramp because it <em>does require</em> some <strong>additional learning</strong>.</div>
+<div><em>Styling</em> in <strong>Mapbox Studio</strong> is done using a language called <em>CartoCSS</em>.</div>
+<div>There are <a href='https://www.mapbox.com/mapbox-studio/style-quickstart/'>many resources</a> to learn CartoCSS, but simply the <strong>act</strong> of <em>learning something new</em> is <strong>awesome preparation</strong> for learning <em>other tools</em> in open source geo.</div>
+<div>Another open source tool for <strong>cartography</strong> is <a href='http://qgis.org'>QGIS</a>.</div>
+<div data-bodyclass='qgis-cartography'></div>
+<div>QGIS is a more <em>"WYSIWYG"</em> cartography platform, as described in <a href='http://boundlessgeo.com/2014/10/qgis-compared-p2-cartography/'>this blog post</a> by the inimitable <a href='https://twitter.com/petersongis'>Gretchen Peterson</a>.</div>
+<div data-bodyclass='quote'>"The cartographic capabilities of QGIS are sufficient to produce almost all the <strong>common map layout components</strong> with an adequate amount of <em>advanced capabilities</em> and even some options, like the color blending modes, that aren’t typically found elsewhere."</div>
+<div>They also have a <a href='https://www.flickr.com/groups/qgis/'>pretty swell map gallery</a>!</div>
+<div data-bodyclass='detroit-blight'></div>
+<div data-bodyclass='hackers'>2. Web Programming</div>
+<div>Arguably the <strong>best</strong> and definitively the most <em>ubiquitous</em> open source JavaScript mapping library is <a href='https://leafletjs.com'>Leaflet</a>.</div>
+<div data-bodyclass='leaflet'></div>
+<div><em>Leaflet</em> powers <strong>so many things</strong>!</div>
+<div data-bodyclass='xkcd'></div>
+<div>Leaflet is an <em>awesome</em> place to start because it powers <strong>so many things</strong>.</div>
+<div><a href='https://mapbox.com/mapbox-js'>Mapbox.js</a> is actually a <em>Leaflet plugin</em>.</div>
+<div>Anything you can do in <strong>Leaflet</strong> you can also do in <em>Mapbox.js</em>.</div>
+<div data-bodyclass='mapboxjs'></div>
+<div>Leaflet also has a <a href='http://leafletjs.com/plugins.html'>ton of plugins</a> that give a <strong>huge range</strong> of functionality...</div>
+<div>... and there are <a href='http://lyzidiamond.com/nacis-talk'>tutorials</a> <a href='http://maptime.io/lessons-resources'>galore</a> for making your first <em>Leaflet</em> map.</div>
+<div>There are of course <strong>other</strong> open source JavaScript mapping libraries, like <a href='http://openlayers.org/'>OpenLayers</a>, <a href='http://polymaps.org'>Polymaps</a>, and <a href='http://enjalot.github.io/intro-d3/maptime/geo/'>D3.geo</a>, but <em>Leaflet</em> is an <strong>excellent</strong> place to start.</div>
+<div>There are also JavaScript mapping libraries that do <strong>more</strong> than just <em>getting an interactive map on a page...</em></div>
+<div>like <a href='http://turfjs.org'>Turf.js</a>!</div>
+<div data-bodyclass='turf'></div>
+<div data-bodyclass='babyname'>3. Spatial Analysis</div>
+<div><strong>A huge percentage</strong> of folks who are <em>new</em> to open source geospatial are coming from a <strong>traditional GIS environment</strong>.</div>
+<div data-bodyclass='choropleth'><em>Creating</em> data, <em>editing</em> data, <em>classifying</em> data...</div>
+<div data-bodyclass='raster-vector'><strong>Raster</strong> data, <strong>vector</strong> data...</div>
+<div data-bodyclass='data'>Data data data!</div>
+<div>For <em>this crowd</em>, the most <strong>familiar-looking</strong> tool will be <a href='http://qgis.org'>QGIS</a>.</div>
+<div data-bodyclass='qgis-cartography'></div>
+<div><strong>QGIS</strong> is an <em>open source desktop mapping platform</em>. It is <strong>free</strong> and works on <em>many different systems</em>.</div>
+<div>It works with <strong>rasters</strong> and <em>vectors</em>:</div>
+<div data-bodyclass='raster2vector'></div>
+<div>You can do <em>fun styling</em> to show off results of <strong>analysis</strong>:</div>
+<div data-bodyclass='hillshade'></div>
+<div>But maybe <strong>best of all</strong>, QGIS has an <em>awesome community</em> of users and developers.</div>
+<div>There are some <a href='http://www.qgistutorials.com/en/'>excellent tutorials</a> for getting started. There's also room for using <strong>Python scripting</strong> inside QGIS when it's time to <em>level up</em>!</div>
+<div><em>Another</em> popular <strong>analysis and visualization</strong> tool that's an <em>awesome</em> place to start is <a href='http://cartodb.com'>CartoDB</a>.</div>
+<div data-bodyclass='cartodb'></div>
+<div>With <strong>CartoDB</strong> you can <em>upload</em> a spreadsheet and get to <strong>visualizing</strong> and <em>classifying data</em> in relatively few clicks.</div>
+<div data-bodyclass='cartodb1'></div>
+<div data-bodyclass='cartodb2'></div>
+<div>That's a <em>great feeling</em>: one that <strong>keeps you coming back for more</strong>!</div>
+<div data-bodyclass='puppy'></div>
+<div data-bodyclass='database'>4. Data Management and Acquisition</div>
+<div>This section falls into <strong>two camps</strong>:</div>
+<div>If you love <em>converting data</em> into different formats and <strong>computational analysis</strong>, you should learn about <a href='http://www.gdal.org/'>GDAL</a>.</div>
+<div><strong>GDAL</strong> stands for <em>G</em>eographic <em>D</em>ata <em>A</em>bstraction <em>L</em>ibrary.</div>
+<div>It is a <strong>command-line tool</strong> for <em>data conversion</em> and processing. It can do a <strong>lot</strong>. (<em>OGR</em> is the related utility that handles <strong>vector</strong> data.)</div>
+<div>My good friend <a href='http://github.com/dtwkns'>Derek Watkins</a> has put together an awesome <a href='https://github.com/dwtkns/gdal-cheat-sheet'>cheat sheet</a> for learning GDAL and OGR commands.</div>
+<div>If you love <em>storing data</em> and conducting <strong>large-scale spatial operations</strong>, you should learn about <a href='http://postgis.net/'>PostGIS</a>.</div>
+<div><strong>PostGIS</strong> is a <em>spatial database extension</em> for <a href='http://www.postgresql.org/'>PostgreSQL</a>, which is an open source object relational database.</div>
+<div>PostGIS is concerned with how data is <em>stored</em> and <em>manipulated</em>, <strong>joined</strong> and <strong>related</strong>.</div>
+<div>It is often the <strong>heavy lifter</strong> behind <em>spatial web applications</em> that have <strong>lots</strong> of data.</div>
+<div>PostGIS can be a bit <em>difficult</em> to get started with, but that's just because <strong>databases</strong> require a <em>specific</em> way of operating.</div>
+<div>BoundlessGeo has an excellent <a href='http://workshops.boundlessgeo.com/postgis-intro/'>intro tutorial</a> that uses their OpenGeo Suite. It's a <em>good</em> place to start.</div>
+<div data-bodyclass='community'><em>5. Community Mapping</em></div>
+<div>This one is <strong>pretty obvious</strong>...</div>
+<div data-bodyclass='osm center'>OpenStreetMap!</div>
+<div><a href='http://osm.org'>OpenStreetMap</a> is the <strong>crowd-sourced map of the world</strong>.</div>
+<div>It is <em>entirely</em> open source and has sprung <strong>countless</strong> projects to facilitate <em>community mapping</em>.</div>
+<div>All <strong>organizing</strong> for OpenStreetMap-related <em>projects</em> and <em>events</em> happens on the <a href='http://wiki.osm.org/wiki/Main_Page'>OSM Wiki</a>.</div>
+<div>OpenStreetMap is an <strong>open source community itself</strong>.</div>
+<div>How do <em>many</em> people -- <strong>especially</strong> newcomers -- <em>interact</em> with OpenStreetMap?</div>
+<div data-bodyclass='id center'><em>The in-browser iD editor.</em></div>
+<div>You see, <strong>iD is an onramp itself</strong>.</div>
+<div>It's an <a href='https://github.com/openstreetmap/iD'>entirely open source</a> project with the <em>goal</em> of bringing <strong>more people</strong> into an <em>open source community</em>.</div>
+<div>It's <em>quite beautiful</em>.</div>
+<div>It <strong>also</strong> shows us that we have the <em>power</em> to <strong>build</strong> these on-ramps <em>collectively</em>.</div>
+<div><strong>Open source projects</strong> can <em>themselves</em> be on-ramps to <strong>open source communities</strong>.</div>
+<div>It just takes a little <em>thought</em> and a whole lot of <em>empathy</em>.</div>
+<div>Then, <strong>all of a sudden</strong>, those <em>newcomers</em> are themselves <strong>experts</strong> and are <em>bringing in newcomers themselves</em>.</div>
+<div data-bodyclass='sotm2012'>We have an <strong>amazing opportunity</strong> to <em>grow our community</em> here.</div>
+<div>There's <em>absolutely nothing</em> stopping us from taking it.</div>
+<div data-bodyclass='puppy'><strong>Thanks!</strong></div>
+<div>I'm <a href='https://twitter.com/lyzidiamond'>@lyzidiamond</a> on Twitter! These slides are at <a href='http://lyzidiamond.com/onramps'>lyzidiamond.com /onramps</a>! Come <strong>talk to me</strong>! I like <em>talking to people</em>!</div>
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47757349-1', 'lyzidiamond.com');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
